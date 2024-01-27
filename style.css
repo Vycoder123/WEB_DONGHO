@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.container{
+    width: 1100;
+    margin: 0 auto;
+}
+.gioHang{
+    float: right;
+    color: white;
+    padding-top: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+.gioHang p{
+    margin-top: 5px;
+    padding: 0;
+}
+.logo h1{
+    text-align: center;
+    margin: 20px;
+    border-bottom: 1px solid rgb(167, 163, 163);
+}
+.elements_left{
+    width: 70%;
+    height: 50px;
+    float: left;
+}
+li{
+    display: inline-block;
+}
+.elements_left ul li{
+    float: left;
+    padding-right: 47px;
+    font-size: 20px;
+}
+.elements_left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.elements_left ul li a:hover{
+    color: aquamarine;
+}
+.elements_right{
+    width: 30%;
+    height: 50px;
+    float: left;
+}
+#i_seach{
+    padding: 5px;
+}
+#btnseach{
+    background-image: url(https://p.w3layouts.com/demos/luxury_watches/web/images/search.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 14px;
+    padding-left: 5px;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    right: 25px
+
+}
+.bnr img{
+    width: 100%;
+}
+.about{
+    padding-top: 50px;
+    height: 275px;
+}
+.sanphamtieubieu{
+    float:left;
+    padding-right: 16px;
+}
+.product{
+    padding-top: 60px;
+    height: 800px;
+    background-color: beige;
+    cursor: pointer;
+}
+.oneProduct{
+    border: solid 1px #E2E2E2;
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+    margin-left: 27px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.infomation{
+    padding-top: 60px;
+    height: 400px;
+    background-color: cadetblue;
+}
+.info h3{
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+}
+.info h6{
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 20px;
+}
+.info ul li a{
+    text-decoration: none;
+    color: black;
+}
+.info ul li a span{
+    background: url(https://p.w3layouts.com/demos/luxury_watches/web/images/s-icons.png) no repeat;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.fb{
+    display: inline-block;
+    background-position: 0px 0px;
+}
